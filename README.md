@@ -14,11 +14,11 @@ Frontend aplikasi dibuat menggunakan **Next.js**, sedangkan proses analisis CV d
 
 ### Halaman Upload CV
 
-Pengguna dapat mengunggah file CV berbentuk PDF sebelum menjalankan analisis.
+![Halaman Upload CV](images/upload.png)
 
 ### Halaman Hasil Analisis
 
-Hasil analisis menampilkan skor ATS dalam skala 0-100, ringkasan profil, serta bagian kelebihan dan evaluasi CV.
+![Halaman Hasil Analisis](images/result.png)
 
 ---
 
@@ -293,15 +293,6 @@ Konfigurasi saat ini:
 - Belum ada database untuk menyimpan riwayat analisis.
 - Belum ada autentikasi pengguna.
 - CORS saat ini dikonfigurasi untuk environment development `localhost:3000`.
-
----
-
-
-## Disclaimer
-
-Mekanik CV dibuat sebagai proyek pembelajaran dan eksperimen penerapan **LLM, NLP, FastAPI, dan Next.js** untuk analisis resume.
-
-Skor yang diberikan aplikasi tidak mewakili skor ATS dari perusahaan atau platform rekrutmen tertentu. Sistem ATS setiap perusahaan dapat menggunakan aturan, parser, keyword, dan konfigurasi yang berbeda.
 
 ---
 
